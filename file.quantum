@@ -1,0 +1,18 @@
+0 #counter
+30 #start
+100 #end
+1 #step
+
+SETMEM 3 # set memory size to mem address 3 (100)
+
+SET 1 #Set AC to 0
+ADD 4 #Add the step (1)
+STORE 1 #increment counter
+PRINT 2 #print the result in the AC
+STOREA 2 #put counter in different memory addresses from 30 - 100
+SET 2
+ADD 4
+STORE 2
+LESS 3
+IF 19 # Check if start <= end
+GOTO 8

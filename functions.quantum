@@ -1,0 +1,78 @@
+10 # Iterate Function Parameter - Number of iterations
+1 # Iterate Function Parameter - Step
+0 # Iterate Function Parameter - Start Value
+0 # Iterate Function Return - Result
+1 # Iterate Function Return Position
+
+GOTO 24 #Iterate Function
+0 #Iteration Count
+SET 3
+STORE 4
+SET 4
+ADD 2
+STORE 4
+PRINT 4
+SET 8
+ADD 64
+STORE 8
+LESS 1
+IF 21
+GOTO 11
+SET 73
+STORE 8
+GOTO 5
+
+
+#Assign Parameters
+#10
+#SET 27
+#STORE 1 #number of iterations
+#0
+#SET 30
+#STORE 3 #start value
+#37
+#SET 33
+#STORE 5 #return position
+#GOTO 9 # Call Function
+
+
+#Assign Parameters
+80
+SET 40
+STORE 1 # number of iterations
+20
+SET 43
+STORE 3 #start value
+50
+SET 46
+STORE 5 #return position
+GOTO 9 # Call Function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+
+
+
+
+#end
